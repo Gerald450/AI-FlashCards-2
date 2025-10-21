@@ -25,7 +25,7 @@ export default function Flashcard() {
                 flashcards.push({id: doc.id, ...doc.data()})
             })
             setFlashcards(flashcards)
-        }
+        }//commit
         getFlashcard()
     }, [user, search])
 
